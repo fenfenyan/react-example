@@ -7,7 +7,7 @@ class ProductImage extends Component{
     constructor(props){
         super(props);
         this.state = {
-            loader: '../public/img/rocket.png'
+            loader: '../public/img/rocket1.png'
         };
     }
     componentDidUpdate(prevProps) {

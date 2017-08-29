@@ -1,6 +1,16 @@
 
-import React from 'react';
-import {render} from 'react-dom';
-import Greeter from './Greeter';
+import React, {Component} from 'react';
+import PhotoGallary from './PhotoGallary';
 
-render(<Greeter name="business" />, document.getElementById('business'));
+class Business extends Component{
+    constructor(props){
+        super(props);
+    }
+    componentDidMount(){
+        
+    }
+    render() {
+        return <PhotoGallary/>
+    }
+}
+export  default Business

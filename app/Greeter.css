@@ -32,8 +32,11 @@ html,body{
 .titleBox{
   display:inline-block;
 }
+.titleBox ul{
+  margin:0;
+}
 .titleBox a{
-  margin-right:6px;
+  margin-right:10px;
   color:#fff;
   text-decoration: none;
 }
@@ -84,6 +87,10 @@ ul li{
   font-size:16px;
   color:#fff;
   background-color:#000;
+}
+.footerBox a{
+  margin-left:10px;
+  color:#fff;
 }
 .toTop{
   position:fixed;
